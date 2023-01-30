@@ -24,6 +24,8 @@ html, body {
     /* border:10px solid red; */
     height: 0px; 
     overflow: hidden;
+
+    transition:all 0.35s;
 }
 
 #btn-all-close {
@@ -44,5 +46,6 @@ html, body {
 }
 
 .active {
-    
+    display: block;
+    height: 300px;
 }

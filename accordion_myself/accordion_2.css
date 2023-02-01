@@ -1,0 +1,45 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0
+}
+
+.panel-faq-container{
+    /* border: 1px solid red; */
+    margin-bottom: -14px;
+}
+
+.panel-faq-title{
+    color:aqua;
+    cursor: pointer;
+}
+
+.panel-faq-answer{
+
+    height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+}
+
+#btn-all-close{
+    margin-bottom: 10px;
+    border: none;
+    cursor:pointer;
+    padding:10px 25px;
+    float: right;
+    background-color: cornflowerblue;
+    color: blue;
+
+}
+
+#btn-all-close:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+    transition: all .35s;
+
+}
+
+.active{
+    display: block;
+    height: 300px;
+
+}
